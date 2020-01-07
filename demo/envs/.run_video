@@ -1,0 +1,6 @@
+# run_video.py --input=${INPUT_VDO} --output=${OUTPUT_DIR} --model=${MODEL}
+
+INPUT_VDO=${CUR_ROOT_DIR}/test/video/irrigate.mp4
+OUTPUT_DIR=${CUR_ROOT_DIR}/assets/
+MODEL=${CUR_ROOT_DIR}/test/model/instseg34405-gyn.pth.tar
+

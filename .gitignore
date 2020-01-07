@@ -1,4 +1,4 @@
-__pychache__/*
+__pychache__/*epoch
 *.pyc
 .ipynb_checkpoints/*
 .idea/*
@@ -13,3 +13,9 @@ venv
 .venv
 env/
 venv/
+
+# Model size is too large for GitHub
+test/model/
+!test/model/params.conf
+test/video/
+test/dataset/**/

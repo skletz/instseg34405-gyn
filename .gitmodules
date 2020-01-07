@@ -1,0 +1,4 @@
+[submodule "torchvision_mrcnn"]
+	path = model/torchvision_mrcnn
+	url = git@github.com:skletz/torchvision-mrcnn.git
+	branch = master

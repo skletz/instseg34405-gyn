@@ -1,0 +1,24 @@
+# train.py --model_dir=${MODEL} --data_dir=${DATA}
+
+########################################
+# Train mrcnn-resnet50 on lisloc-34405-gyn
+# Restore splits
+# train.py--model_dir=${MODEL} --data_dir=${DATA} --restore=${SPLITS_TO_RESTORE}
+########################################
+
+#! Set env for EXP_ROOT_DIR
+
+# dirs for experiments
+EXPERIMENTS=${EXP_ROOT_DIR}/experiments
+# dirs for datasets
+DATASETS=${EXP_ROOT_DIR}/datasets
+
+# location of the output model
+MODEL=${EXPERIMENTS}/instseg34405-gyn/mrcnn_resnet_demo
+
+# location of the input dataset
+DATA=${DATASETS}/lisloc-34405-gyn
+
+# location of the splits to restore
+SPLITS_TO_RESTORE=${MODEL}/train_val_test_split.pkl
+
