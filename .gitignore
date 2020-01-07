@@ -1,0 +1,15 @@
+__pychache__/*
+*.pyc
+.ipynb_checkpoints/*
+.idea/*
+venv
+*.log
+*.pth.targit submodule add -b master --name torchvision_mrcnn https://github.com/skletz/torchvision-mrcnn.git model/torchvision_mrcnn
+*.pkl
+*.npz
+../.env
+# Environments
+.env
+.venv
+env/
+venv/
